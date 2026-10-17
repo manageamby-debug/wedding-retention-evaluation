@@ -1,0 +1,36 @@
+{
+  "rows": {
+    "train": 2520,
+    "validation": 560,
+    "test": 1080
+  },
+  "test_inactivity_rate": 0.3814814814814815,
+  "validation_selected_threshold": 0.5843828207404351,
+  "model": {
+    "roc_auc": 0.7297577175745595,
+    "average_precision": 0.6103165838524341,
+    "brier_score": 0.20095421755032916,
+    "precision": 0.634453781512605,
+    "recall": 0.36650485436893204,
+    "contact_rate": 0.22037037037037038,
+    "confusion_matrix_tn_fp_fn_tp": [
+      581,
+      87,
+      261,
+      151
+    ]
+  },
+  "baseline": {
+    "roc_auc": 0.5,
+    "average_precision": 0.3814814814814815,
+    "brier_score": 0.23635760477030318
+  },
+  "roc_auc_bootstrap_95_percent_interval": [
+    0.6994396780381135,
+    0.75810316667923
+  ],
+  "paired_average_precision_improvement_95_percent_interval": [
+    0.1885002592322802,
+    0.27231318800365706
+  ]
+}
